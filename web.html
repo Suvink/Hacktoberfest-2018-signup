@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hacktoberfest 2018 Signup </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <img src="images/logo.png" class="img-rounded" alt="hacktoberfest logo" id="logo">
+    <img class="img-responsive" src="images/bg.jpg" alt="hacktoberfest" id="bg">
+
+    <a class="btn btn-warning" role="button" id="btn" onclick="showDiv('list')">Sign Up</a>
+
+
+
+    <div id="list" style="display:none">
+            <ul class="list-group">
+
+
+                    <!--ADD YOUR NAMES HERE-->
+
+                    <li class="list-group-item active">Suvin Nimnaka <span class="badge">1</span></li>
+                    <li class="list-group-item">Isala Piyarisi <span class="badge">2</span></li> 
+                    <li class="list-group-item">Pasindu Epaaaa <span class="badge">3</span></li> 
+
+
+                    
+                  </ul>
+    </div>
+
+
+
+    
+        
+       
+       
+
+
+
+
+    <style>
+    #bg {
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+            
+        /* Preserve aspet ratio */
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    #logo{
+        z-index:2;
+        position:fixed;
+        left:33%;
+        bottom:47%;
+    }
+
+    #btn{
+        z-index:3;
+        position: fixed;
+        top:55%;
+        left: 50%
+    }
+
+    #list{
+        position: fixed;
+        top:65%;
+        left: 48%
+    }
+    </style>
+
+    <script type="text/javascript">
+        function showDiv(list){
+        document.getElementById(list).style.display = 'block';
+        }
+    </script>
+
+
+</body>
