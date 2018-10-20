@@ -22,6 +22,8 @@ Sample line:<br>
 *< li class="list-group-item">**Your_name**< span class="badge">**Your_number**< /span>< /li >*
 
 Replace Your_name and add this line to web.html file and you are good to go. 
+there's some draft requested by onel pons.
+<li> and </li> are wrong in most places. (joking)
 
 
 ## Copyright
