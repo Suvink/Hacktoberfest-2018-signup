@@ -1,4 +1,4 @@
-# Hacktoberfest-2018-signup
+## Hacktoberfest-2018-signup
 A simple webpage which allows users to sign themselves up. Good for those tho willing to put their first PR.
 
 ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-pink.svg)
@@ -10,7 +10,7 @@ This repository is for anyone to create pull requests during Hacktoberfest 2018,
 
 
 
-# Getting Started
+## Getting Started
 
 Fork this repo and edit web.html file.
 
